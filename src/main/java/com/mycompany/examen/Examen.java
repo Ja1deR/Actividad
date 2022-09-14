@@ -38,14 +38,14 @@ public class Examen {
                 n1[i] = n1[i] + 0;
             }else{
                 n1[i] = (int) ((n1[i]*n)+n1[i]);
-        }
+            }
         }
         for (int i = 0; i < n2.length; i++) {
             if (n2[i] == 255) {
                 n2[i] = n2[i] + 0;
             }else{
                 n2[i] = (int) ((n2[i]*n)+n2[i]);
-        }
+            }
         }
         for (int i = 0; i < n1.length; i++) {
             System.out.print(n1[i]+"\t");
